@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+
+# Build outputs
+dist/
+build/
+.vite/
+*.tsbuildinfo
+.nyc_output/
+*.lcov
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+
+# Vite
+.vite
+
+# Convex
+.convex/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+.parcel-cache/
+.eslintcache
+
+# Spark runtime
+.spark/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI
+coverage/
+
+# Misc
+*.swp
+*.swo
+.turbo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Local development
+.vercel
+.netlify
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Generated KB bundles (local artifacts - NEVER commit these)
+out_convex_bundle*/
+additional_customs_docs/
+additional_customs_docs_*.zip
+
+# Large file types (bundles, documents)
+*.jsonl
+*.pdf
+*.zip
+
+# Local one-off artifacts
+_tmp_excel_inspect.txt

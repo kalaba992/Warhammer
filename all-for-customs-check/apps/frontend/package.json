@@ -1,0 +1,28 @@
+{
+  "name": "audit-hs-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "node ../../node_modules/eslint/bin/eslint.js ."
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "latest",
+    "@radix-ui/react-dropdown-menu": "latest",
+    "@radix-ui/react-toast": "latest",
+    "@shadcn/ui": "latest",
+    "@vitejs/plugin-react": "^5.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^7.0.0"
+  }
+}

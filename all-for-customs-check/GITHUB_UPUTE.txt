@@ -1,0 +1,144 @@
+════════════════════════════════════════════════════════════════════════
+                    CARINSKI ALAT - GITHUB PUSH VODIČ
+════════════════════════════════════════════════════════════════════════
+
+🎯 CILJ: Snimiti sve fajlove na GitHub repository "all-for-customs"
+
+════════════════════════════════════════════════════════════════════════
+📋 BRZE UPUTE - 3 KORAKA
+════════════════════════════════════════════════════════════════════════
+
+KORAK 1: Kreiraj GitHub Repository
+──────────────────────────────────────────────────────────────────────
+1. Otvori: https://github.com/new
+2. Repository name: all-for-customs
+3. Odaberi: Public ili Private
+4. NE čekiraj ništa drugo
+5. Klikni "Create repository"
+6. Kopiraj URL koji vidiš (npr: https://github.com/USERNAME/all-for-customs.git)
+
+
+KORAK 2: Poveži Terminal sa GitHub-om
+──────────────────────────────────────────────────────────────────────
+Otvori terminal u projektu i izvršи (ZAMENI USERNAME SA SVOJIM):
+
+  git remote add origin https://github.com/USERNAME/all-for-customs.git
+
+
+KORAK 3: Push Sve Fajlove
+──────────────────────────────────────────────────────────────────────
+Izvrši ove 2 komande:
+
+  chmod +x git-save.sh
+  ./git-save.sh "Inicijalni commit - Carinski Alat v1.0.0"
+
+ILI ručno:
+
+  git add .
+  git commit -m "Initial commit"
+  git push -u origin main
+
+
+════════════════════════════════════════════════════════════════════════
+✅ PROVJERA
+════════════════════════════════════════════════════════════════════════
+
+Otvori u browseru (ZAMENI USERNAME):
+  https://github.com/USERNAME/all-for-customs
+
+Trebao bi vidjeti:
+  ✓ Sve fajlove (src/, components/, itd.)
+  ✓ README.md prikazan
+  ✓ Dokumentaciju
+
+AKO VIDIŠ SVE - USPJEŠNO! 🎉
+
+
+════════════════════════════════════════════════════════════════════════
+🔧 KORISNE KOMANDE
+════════════════════════════════════════════════════════════════════════
+
+Provjeri status:
+  git status
+
+Vidi remote:
+  git remote -v
+
+Vidi promjene:
+  git diff
+
+Vidi istoriju:
+  git log --oneline
+
+Snimi promjene kasnije:
+  ./git-save.sh "Opis promjene"
+
+
+════════════════════════════════════════════════════════════════════════
+⚠️ ČESTE GREŠKE
+════════════════════════════════════════════════════════════════════════
+
+GREŠKA: "remote origin already exists"
+RJEŠENJE:
+  git remote remove origin
+  git remote add origin https://github.com/USERNAME/all-for-customs.git
+
+GREŠKA: "failed to push"
+RJEŠENJE:
+  git branch -M main
+  git push -u origin main
+
+GREŠKA: "Permission denied"
+RJEŠENJE:
+  - Idi na: https://github.com/settings/tokens
+  - Kreiraj Personal Access Token
+  - Koristi token kao password
+
+
+════════════════════════════════════════════════════════════════════════
+📚 DODATNA DOKUMENTACIJA
+════════════════════════════════════════════════════════════════════════
+
+Za detaljne upute:
+
+  START_OVDJE.md                - Vizuelni vodič sa emoji ikonama
+  BRZI_VODIC.md                 - Super kratke upute
+  KAKO_SNIMITI_NA_GITHUB.md    - Kompletan vodič sa FAQ
+  DEPLOYMENT.md                 - Cloudflare Pages deployment
+  README.md                     - Glavna dokumentacija projekta
+
+
+════════════════════════════════════════════════════════════════════════
+🆘 POMOĆ
+════════════════════════════════════════════════════════════════════════
+
+Email: kalaba992@gmail.com
+
+Pokreni pomoćnu skriptu:
+  chmod +x git-status.sh
+  ./git-status.sh
+
+
+════════════════════════════════════════════════════════════════════════
+🚀 ONE-LINER (Za iskusne)
+════════════════════════════════════════════════════════════════════════
+
+git remote add origin https://github.com/USERNAME/all-for-customs.git && \
+./git-save.sh "Initial commit"
+
+
+════════════════════════════════════════════════════════════════════════
+✨ GOTOVO!
+════════════════════════════════════════════════════════════════════════
+
+Nakon push-a:
+  ✓ Kod je sigurno na GitHub-u
+  ✓ Može se klonirati na druge računare
+  ✓ Spreman za Cloudflare Pages deployment
+  ✓ Backup je napravljen
+
+Sljedeći korak:
+  Vidi DEPLOYMENT.md za objavu na internetu
+
+
+════════════════════════════════════════════════════════════════════════

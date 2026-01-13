@@ -1,0 +1,20 @@
+{
+  "name": "audit-hs-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "lint": "node ../../node_modules/eslint/bin/eslint.js ."
+  },
+  "dependencies": {
+    "convex": "latest",
+    "express": "^4.18.2",
+    "openapi-types": "latest",
+    "auth0": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "eslint": "^8.0.0"
+  }
+}

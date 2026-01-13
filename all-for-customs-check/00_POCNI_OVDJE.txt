@@ -1,0 +1,155 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║                    🚀 CARINSKI ALAT - QUICK START 🚀                     ║
+║                                                                          ║
+║                    GitHub Push Vodič - Započni Ovdje!                    ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📋 IZBOR: KOJI DOKUMENT OTVORITI?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  🌟 PREPORUČENO (POČNI OVDJE):
+  
+     START_OVDJE.md
+     → Vizuelno atraktivan vodič sa svim detaljima
+     → FAQ i troubleshooting
+     → Koraci sa jasnim objašnjenjima
+     
+
+  ⚡ ZA BRZE LJUDE:
+  
+     BRZI_VODIC.md
+     → Samo 3 koraka
+     → Copy/paste komande
+     → 2 minute do GitHub-a
+     
+
+  📖 ZA DETALJNE UPUTE:
+  
+     KAKO_SNIMITI_NA_GITHUB.md
+     → Kompletan vodič
+     → Rješenja za sve greške
+     → Quick tips i alias-i
+     
+
+  🛠️ TERMINAL HELPER:
+  
+     ./git-status.sh
+     → Automatska provjera
+     → Status i sljedeći koraci
+     → Colored output
+     
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ⚡ SUPER BRZE KOMANDE (ako već znaš šta radiš)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  KORAK 1: Kreiraj repository na GitHub
+  
+    https://github.com/new
+    Repository name: all-for-customs
+    
+
+  KORAK 2: Poveži sa terminal-om (ZAMENI USERNAME!)
+  
+    git remote add origin https://github.com/USERNAME/all-for-customs.git
+    
+
+  KORAK 3: Push na GitHub
+  
+    chmod +x git-save.sh
+    ./git-save.sh "Inicijalni commit - Carinski Alat v1.0.0"
+    
+
+  PROVJERA: Otvori u browser-u
+  
+    https://github.com/USERNAME/all-for-customs
+    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🎯 ŠTA JE OVO? (Za one koji su se izgubili)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ovo je kompletna aplikacija "Carinski Alat" - AI sistem za 
+  klasifikaciju carinskih HS kodova.
+  
+  Aplikacija je GOTOVA i SPREMNA.
+  
+  Ovaj folder sadrži vodiče kako da snimiš (push-uješ) sve 
+  fajlove na GitHub, što ti omogućava:
+  
+    ✓ Sigurnu čuvanje koda
+    ✓ Pristup sa bilo kojeg računara
+    ✓ Deployment na Cloudflare Pages
+    ✓ Dijeljenje sa drugima
+    ✓ Version control
+  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  📚 SVI DOSTUPNI DOKUMENTI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  GitHub Push Vodiči:
+  
+    START_OVDJE.md                 → Glavni vodič (vizuelno)
+    BRZI_VODIC.md                  → 3 koraka (brzo)
+    KAKO_SNIMITI_NA_GITHUB.md     → Kompletan vodič (detaljno)
+    GITHUB_UPUTE.txt               → Tekstualni format (print)
+    SPREMNO_ZA_GITHUB.md           → Finalni pregled
+    
+  
+  Automatske Skripte:
+  
+    git-save.sh                    → Automatski push
+    git-status.sh                  → Status helper
+    
+  
+  Projektna Dokumentacija:
+  
+    README.md                      → Glavna dokumentacija
+    DEPLOYMENT.md                  → Cloudflare deployment
+    CONTRIBUTING.md                → Contribution guide
+    SECURITY.md                    → Security policy
+    ROADMAP.md                     → Product roadmap
+    QUICK_REFERENCE.md             → User quick start
+    PRD.md                         → Product requirements
+    CHANGELOG.md                   → Version history
+    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🆘 POMOĆ
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Terminal helper skripta:
+  
+    chmod +x git-status.sh
+    ./git-status.sh
+    
+  
+  Email support:
+  
+    kalaba992@gmail.com
+    
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✨ SLJEDEĆI KORACI NAKON GITHUB-A
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Provjeri da je sve na GitHub-u
+  2. Pročitaj DEPLOYMENT.md
+  3. Deploy na Cloudflare Pages
+  4. Konfigurišи custom domain (opciono)
+  5. Dodaj collaborators (opciono)
+  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+      🎉 SPREMAN SI! Otvori START_OVDJE.md i počni! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+Napravljen sa ❤️ za carinsku službu BiH
